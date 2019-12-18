@@ -635,7 +635,21 @@ div.list {
     color: black;
     color: var(--text)
 }
-
+.web-title {
+    font-size: .6465454546rem;
+    font-family: inherit;
+    line-height: .8rem;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+    color: dimgray;
+    color: var(--high);
+    text-align: center;
+    display: block;
+    margin-top: 1.6rem;
+    margin-bottom: -2.5rem;
+    -webkit-transition-property: color;
+    transition-property: color
+}
 .product {
     position: relative
 }
